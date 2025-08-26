@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DWPlayer - Video List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h2>🎬 STREAMX</h2>
+  </header>
+
+  <!-- Categories -->
+  <div class="categories">
+    <button onclick="filterVideos('all')">All</button>
+    <button onclick="filterVideos('desi')">Desi Videos</button>
+    <button onclick="filterVideos('romance')">Romance</button>
+  </div>
+
+  <!-- Video List -->
+  <div class="video-list" id="videoList">
+    <div class="video-card" data-cat="desi">
+      <img src="thumb1.jpg" alt="Video 1">
+      <h4>Desi Hot Bhabhi Hardcore</h4>
+      <a href="player.html?id=1" class="btn">▶ Watch</a>
+    </div>
+
+    <div class="video-card" data-cat="romance">
+      <img src="thumb2.jpg" alt="Video 2">
+      <h4>Romantic Couple Scene</h4>
+      <a href="player.html?id=2" class="btn">▶ Watch</a>
+    </div>
+  </div>
+
+  <!-- Monetag Ads Script -->
+  <script async src="https://iclickcdn.com/tag.min.js" data-zone="XXXXXXX"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
